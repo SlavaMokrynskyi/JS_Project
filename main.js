@@ -217,7 +217,7 @@ form.addEventListener('submit', async function(event){
         input.value = '';
         page.innerHTML = `
         <div class="h"><h2>Current Weather</h2>
-        <h2>17.01.2025</h2></div>
+        <h2>18.01.2025</h2></div>
         <div class="current_weather">
             <div class = "tempreture current_weather_div">
                 <p><span id="tempreture">${Math.round(tempreture)}°C</span></p>
@@ -304,7 +304,7 @@ form.addEventListener('submit', async function(event){
 button_today.addEventListener('click', async function(){
     page.innerHTML = `
         <div class="h"><h2>Current Weather</h2>
-        <h2>17.01.2025</h2></div>
+        <h2>18.01.2025</h2></div>
         <div class="current_weather">
             <div class = "tempreture current_weather_div">
                 <p><span id="tempreture">${Math.round(tempreture)}°C</span></p>
@@ -364,7 +364,7 @@ button_today.addEventListener('click', async function(){
 button_forecast.addEventListener('click',async function(){
     page.innerHTML = `
     <div class="h"><h2>Forecast</h2>
-    <h2>17.01.2025</h2></div>
+    <h2>18.01.2025</h2></div>
     <div class = "hourly_forecast">
     <div class="hourly_forecast_div">
       <p>${getDayOfWeek(daily_weather.weather_1.weekday)}</p>
@@ -443,7 +443,7 @@ button_get_started.addEventListener('click',async function(){
     await getWeatherHourly(lat,lon);
     page.innerHTML = `
         <div class="h"><h2>Current Weather</h2>
-        <h2>17.01.2025</h2></div>
+        <h2>18.01.2025</h2></div>
         <div class="current_weather">
             <div class = "tempreture current_weather_div">
                 <p><span id="tempreture">${Math.round(tempreture)}°C</span></p>
